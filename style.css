@@ -77,7 +77,7 @@ h2 {
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 /* Projects Section */
@@ -129,6 +129,34 @@ h2 {
 
 .contact-button:hover {
     background-color: #0056b3;
+}
+
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.social-link i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
 }
 
 /* Footer */
