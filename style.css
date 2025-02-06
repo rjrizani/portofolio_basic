@@ -186,20 +186,114 @@ footer {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 1rem;
+    }
+    
+    section {
+        padding: 4rem 1.5rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
+    nav {
+        padding: 0.5rem;
+    }
+    
     nav ul {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
     }
     
     nav ul li {
-        margin: 0 1rem;
+        margin: 0.5rem 0;
     }
     
     .hero-content h1 {
         font-size: 2rem;
     }
     
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about-content {
+        padding: 0 1rem;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    
+    .social-link {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
     section {
         padding: 3rem 1rem;
+    }
+    
+    .project-card {
+        padding: 15px;
+    }
+    
+    .contact-button {
+        padding: 0.8rem 1.5rem;
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+/* Add smooth transitions for better UX */
+.hero-content h1,
+.hero-content p,
+nav ul li a,
+.project-card,
+.social-link,
+.contact-button {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Improve accessibility for touch devices */
+@media (hover: none) {
+    .project-card:hover {
+        transform: none;
+    }
+    
+    .social-link:hover {
+        transform: none;
+    }
+    
+    nav ul li a,
+    .contact-button,
+    .social-link {
+        padding: 0.8rem 1.2rem;
     }
 }
