@@ -14,6 +14,11 @@ const projects = [
         title: "Data Analysis by using Python",
         description: "Data Analysis by using Python and Pandas. Future: extend to other libraries and add more advanced analysis techniques.",
         image: "images/dataAnalysis.png" // Add your image path here
+    },
+    {
+        title: "Youtube Data Extraction and Analysis",
+        description: "Data extraction with youtube API, sentiment analysis and data visualization.",
+        image: "images/YouTube.png" // Add your image path here
     }
 ];
 
