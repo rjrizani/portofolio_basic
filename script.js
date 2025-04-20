@@ -19,7 +19,17 @@ const projects = [
         title: "Youtube Data Extraction and Analysis",
         description: "Data extraction with youtube API, sentiment analysis and data visualization.",
         image: "images/YouTube.png" // Add your image path here
-    }
+    },{
+        title: "Web Application",
+        description: "Web application using Flask framework, and deploy it on pythonanywhere. Future: add more advanced features.",
+        image: "images/web_app_flask.png" // Add your image path here
+    },
+    {
+        title: "Machine Learning",
+        description: "Machine learning model to predict the price of a house based on its features.",
+        image: "images/ml.png" // Add your image path here
+    },
+
 ];
 
 // Function to render project cards
