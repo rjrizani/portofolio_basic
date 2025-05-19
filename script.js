@@ -28,7 +28,7 @@ const projects = [
         title: "Web Application",
         description: "Web application using Flask framework, and deploy it on pythonanywhere. Future: add more advanced features.",
         image: "images/web_app_flask.png",
-        url: "https://your-flask-app.pythonanywhere.com/"
+        url: "https://rjscrapy.pythonanywhere.com/"
     },
     {
         title: "Machine Learning",
