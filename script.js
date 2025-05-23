@@ -19,8 +19,8 @@ const projects = [
         url: "https://github.com/rjrizani"
     },
     {
-        title: "Youtube Data Extraction and Analysis",
-        description: "Data extraction with youtube API, sentiment analysis and data visualization.",
+        title: "Dashboard for YouTube Data Extraction and Analysis",
+        description: "Utilizing the YouTube API for data extraction, conducting sentiment analysis, and visualizing insights. Integrated with Gemini AI to identify potential sponsors.",
         image: "images/YouTube.png",
         url: "https://rjscrapy-youtube-dashboard.streamlit.app/"
     },
