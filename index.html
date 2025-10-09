@@ -7,21 +7,31 @@
     <title>Ahmad Rizani</title>
   
     <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="script.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <a href="#home" class="nav-logo">Ahmad Rizani</a>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="service.html">Services</a></li>
             </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
 
@@ -78,17 +88,32 @@
     <section id="projects" class="projects">
         <h2>My Projects</h2>
         <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1 </p>
             </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of project 2</p>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <blockquote>"A very nice teacher and he never gets mad :)"</blockquote>
+                <cite>- Muhammad Hamzah Hartanto</cite>
             </div>
-            <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Description of project 3</p>
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <blockquote>"Can overcome a virus on a laptop and teach us lessons that have not been learned, in short, very good."</blockquote>
+                <cite>- AL Gilby Maliq Jibrany Syah</cite>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                </div>
+                <blockquote>"Good one."</blockquote>
+                <cite>- Anonymous Student</cite>
             </div>
         </div>
     </section>
@@ -96,7 +121,7 @@
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <div class="contact-content">
-            <p>Get in touch with me:</p>
+            <p>Interested in working together? Get in touch!</p>
             <a href="mailto:rjrizani@gmail.com" class="contact-button">
                 <i class="fas fa-envelope"></i> Email Me
             </a>
@@ -104,8 +129,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2025 Ahmad Rizani. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -6,38 +6,7 @@ body {
     padding: 0;
 }
 
-header {
-    background: #EFEEEA;
-    box-shadow: 0 2px 8px rgba(39,63,79,0.08);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem 0;
-    margin: 0;
-    gap: 2rem;
-}
-
-nav ul li a {
-    color: #273F4F;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background 0.2s, color 0.2s;
-}
-
-nav ul li a:hover,
-nav ul li a:focus {
-    background: #FE7743;
-    color: #fff;
-}
 
 section {
     padding: 3rem 1rem 2rem 1rem;
