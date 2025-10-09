@@ -351,3 +351,47 @@ footer {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
+/* ADD THIS to your existing style.css file */
+
+/* Navigation Controls */
+.controls-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--bg-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+}
+
+.lang-switcher span {
+    color: #ccc;
+}
+
+.lang-btn {
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.lang-btn.active {
+    color: var(--accent-color);
+}
+
+/* In the @media screen and (max-width: 768px) section,
+   add this to make the switcher look good on mobile */
+@media screen and (max-width: 768px) {
+    .controls-container {
+        gap: 1rem;
+    }
+}

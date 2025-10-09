@@ -20,25 +20,32 @@
         <nav>
             <a href="#home" class="nav-logo">Ahmad Rizani</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="service.html">Services</a></li>
+                <li><a href="#home" data-key="navHome">Home</a></li>
+                <li><a href="#about" data-key="navAbout">About</a></li>
+                <li><a href="#projects" data-key="navProjects">Projects</a></li>
+                <li><a href="#testimonials" data-key="navTestimonials">Testimonials</a></li>
+                <li><a href="#contact" data-key="navContact">Contact</a></li>
+                <li><a href="service.html" data-key="navServices">Services</a></li>
             </ul>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div class="controls-container">
+                <div class="lang-switcher">
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                    <span>|</span>
+                    <a href="#" class="lang-btn active" data-lang="id">ID</a>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
         </nav>
     </header>
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hey there! I'm Ahmad Rizani, a Professional Developer specializing in Web Scraping.</p>
+            <h1 data-key="heroTitle">Welcome to My Portfolio</h1>
+            <p data-key="heroSubtitle">Hey there! I'm Ahmad Rizani, a Professional Developer specializing in Web Scraping.</p>
             <div class="social-links">
                 <a href="https://github.com/rjrizani" target="_blank" class="social-link">
                     <i class="fab fa-github"></i> GitHub
@@ -49,7 +56,6 @@
                 <a href="https://medium.com/@rjrizani_66086" target="_blank" class="social-link">
                     <i class="fab fa-medium"></i> Medium
                 </a>
-
                 <a href="https://www.youtube.com/@ahmadrizani6297" target="_blank" class="social-link">
                     <i class="fab fa-youtube"></i> YouTube
                 </a>
@@ -58,82 +64,73 @@
     </section>
 
     <section id="about" class="about">
-        <h2>About Me</h2>
+        <h2 data-key="aboutTitle">About Me</h2>
         <div class="about-content">
-            <p>I'm a highly skilled and adaptable web scraper, passionate about transforming raw online data into
-                actionable insights. My expertise lies in efficiently extracting, organizing, and automating data
-                collection from diverse web sources, empowering you with the information you need to succeed.</p>
+            <p data-key="aboutDesc1">I'm a highly skilled and adaptable web scraper, passionate about transforming raw online data into actionable insights. My expertise lies in efficiently extracting, organizing, and automating data collection from diverse web sources, empowering you with the information you need to succeed.</p>
             <br>
-            <h3>What I Offer:</h3> 
-            <p><strong>Laser-Focused Web Scraping 🎯</strong> I leverage the power of Python, JavaScript, CSS, and HTML,
-                combined with cutting-edge techniques like TLS/JA3 fingerprinting and sophisticated throttling systems,
-                to extract data from both dynamic and static websites, even those with heavy JavaScript rendering.</p>
-            <p><strong>Data Mastery 🗂️</strong> I meticulously structure, clean, and prepare your data for analysis and
-                business applications. I deliver ready-to-use information, tailored to your specific needs.</p>
-            <p><strong>Seamless Automation ⚙️</strong> From design to deployment, I build automated scripts for
-                effortless data retrieval and analysis, saving you time and resources.</p>
-            <p><strong>API Integration 🔗</strong> I'm proficient in utilizing APIs like the Google Places API to enrich
-                your data and unlock further insights.</p>
+            <h3 data-key="aboutOfferTitle">What I Offer:</h3> 
+            <p><strong data-key="aboutOffer1Title">Laser-Focused Web Scraping 🎯</strong> <span data-key="aboutOffer1Desc">I leverage the power of Python, JavaScript, CSS, and HTML, combined with cutting-edge techniques like TLS/JA3 fingerprinting and sophisticated throttling systems, to extract data from both dynamic and static websites, even those with heavy JavaScript rendering.</span></p>
+            <p><strong data-key="aboutOffer2Title">Data Mastery 🗂️</strong> <span data-key="aboutOffer2Desc">I meticulously structure, clean, and prepare your data for analysis and business applications. I deliver ready-to-use information, tailored to your specific needs.</span></p>
+            <p><strong data-key="aboutOffer3Title">Seamless Automation ⚙️</strong> <span data-key="aboutOffer3Desc">From design to deployment, I build automated scripts for effortless data retrieval and analysis, saving you time and resources.</span></p>
+            <p><strong data-key="aboutOffer4Title">API Integration 🔗</strong> <span data-key="aboutOffer4Desc">I'm proficient in utilizing APIs like the Google Places API to enrich your data and unlock further insights.</span></p>
             <br>
 
-            <h3>My Tech Stack:</h3>
-            <p><strong>Frameworks & Libraries 🛠️</strong> Scrapy, Beautiful Soup, Selenium</p>
-            <p><strong>Automation 🤖</strong> UiPath Studio</p>
-            <p><strong>Advanced Techniques 🔒</strong> TLS/JA3 Fingerprinting, Throttling Systems, Heavy JavaScript
-                Handling</p>
-            <p><strong>Data Formats 📄</strong> CSV, JSON, XML (and others as needed)</p>
-            <p><strong>API Integration 📍</strong> Google Places API, Gemini API, Youtube API and Zyte API</p>
+            <h3 data-key="aboutStackTitle">My Tech Stack:</h3>
+            <p><strong data-key="aboutStack1Title">Frameworks & Libraries 🛠️</strong> <span data-key="aboutStack1Desc">Scrapy, Beautiful Soup, Selenium</span></p>
+            <p><strong data-key="aboutStack2Title">Automation 🤖</strong> <span data-key="aboutStack2Desc">UiPath Studio</span></p>
+            <p><strong data-key="aboutStack3Title">Advanced Techniques 🔒</strong> <span data-key="aboutStack3Desc">TLS/JA3 Fingerprinting, Throttling Systems, Heavy JavaScript Handling</span></p>
+            <p><strong data-key="aboutStack4Title">Data Formats 📄</strong> <span data-key="aboutStack4Desc">CSV, JSON, XML (and others as needed)</span></p>
+            <p><strong data-key="aboutStack5Title">API Integration 📍</strong> <span data-key="aboutStack5Desc">Google Places API, Gemini API, Youtube API and Zyte API</span></p>
 
-            <p>Let's turn data into your competitive advantage. Contact me to discuss your project and discover how I
-                can help you achieve your data goals.</p>
+            <p data-key="aboutClosing">Let's turn data into your competitive advantage. Contact me to discuss your project and discover how I can help you achieve your data goals.</p>
         </div>
     </section>
 
     <section id="projects" class="projects">
-        <h2>My Projects</h2>
+        <h2 data-key="projectsTitle">My Projects</h2>
         <div class="project-grid">
             </div>
     </section>
 
     <section id="testimonials" class="testimonials">
-        <h2>Testimonials</h2>
+        <h2 data-key="testimonialsTitle">Testimonials</h2>
         <div class="testimonial-grid">
             <div class="testimonial-card">
                 <div class="stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <blockquote>"A very nice teacher and he never gets mad :)"</blockquote>
+                <blockquote data-key="testimonial1Quote">"A very nice teacher and he never gets mad :)"</blockquote>
                 <cite>- Muhammad Hamzah Hartanto</cite>
             </div>
             <div class="testimonial-card">
                 <div class="stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <blockquote>"Can overcome a virus on a laptop and teach us lessons that have not been learned, in short, very good."</blockquote>
+                <blockquote data-key="testimonial2Quote">"Can overcome a virus on a laptop and teach us lessons that have not been learned, in short, very good."</blockquote>
                 <cite>- AL Gilby Maliq Jibrany Syah</cite>
             </div>
             <div class="testimonial-card">
                 <div class="stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                 </div>
-                <blockquote>"Good one."</blockquote>
-                <cite>- Anonymous Student</cite>
+                <blockquote data-key="testimonial3Quote">"Good one."</blockquote>
+                <cite data-key="testimonial3Cite">- Anonymous Student</cite>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Me</h2>
+        <h2 data-key="contactTitle">Contact Me</h2>
         <div class="contact-content">
-            <p>Interested in working together? Get in touch!</p>
+            <p data-key="contactDesc">Interested in working together? Get in touch!</p>
             <a href="mailto:rjrizani@gmail.com" class="contact-button">
-                <i class="fas fa-envelope"></i> Email Me
+                <i class="fas fa-envelope"></i> <span data-key="contactButton">Email Me</span>
             </a>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Ahmad Rizani. All rights reserved.</p>
+        <p data-key="footerText">&copy; 2025 Ahmad Rizani. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>

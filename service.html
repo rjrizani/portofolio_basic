@@ -8,27 +8,33 @@
     <link rel="icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="styleService.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="script.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#home" class="nav-logo">Ahmad Rizani</a>
+            <a href="index.html" class="nav-logo">Ahmad Rizani</a>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#projects">Projects</a></li>
-                <li><a href="index.html#testimonials">Testimonials</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="service.html">Services</a></li>
+                <li><a href="index.html" data-key="navHome">Home</a></li>
+                <li><a href="index.html#about" data-key="navAbout">About</a></li>
+                <li><a href="index.html#projects" data-key="navProjects">Projects</a></li>
+                <li><a href="index.html#testimonials" data-key="navTestimonials">Testimonials</a></li>
+                <li><a href="index.html#contact" data-key="navContact">Contact</a></li>
+                <li><a href="service.html" data-key="navServices">Services</a></li>
             </ul>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div class="controls-container">
+                <div class="lang-switcher">
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                    <span>|</span>
+                    <a href="#" class="lang-btn active" data-lang="id">ID</a>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
         </nav>
     </header>
@@ -39,17 +45,13 @@
             <img src="images/AhmadRizani.jpg" alt="Ahmad Rizani" class="rounded-circle mb-3"
                 style="width: 160px; height: 160px; object-fit: cover;object-position: top;">
             <h1>Ahmad Rizani</h1>
-            <p class="text-muted">Full Stack Developer | Coding Teacher | Python Developer</p>
+            <p class="text-muted" data-key="serviceBio">Full Stack Developer | Coding Teacher | Python Developer</p>
         </div>
         </div>
-
-
-
-
 
         <div class="card">
             <div class="card-body">
-                <h2>Hire Me On</h2>
+                <h2 data-key="serviceHireMe">Hire Me On</h2>
                 <div class="freelance-platforms"
                     style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
                     <a href="https://fastwork.id/user/rjrizani" target="_blank" class="card h-100 text-decoration-none"
@@ -87,8 +89,8 @@
 
         <div class="card special-offer">
             <div class="card-body text-center">
-                <h2>Free Demo Classes</h2>
-                <p>Get a free demo class in the field of:</p>
+                <h2 data-key="serviceDemoTitle">Free Demo Classes</h2>
+                <p data-key="serviceDemoDesc">Get a free demo class in the field of:</p>
                 <div class="demo-subjects mb-4">
                     <span class="badge bg-primary m-1">Coding</span>
                     <span class="badge bg-success m-1">GenAI</span>
@@ -96,18 +98,18 @@
                     <span class="badge bg-warning m-1">English</span>
                     <span class="badge bg-danger m-1">Robotics</span>
                 </div>
-                <a href="https://wa.me/6285391107591" target="_blank" class="btn btn-primary btn-lg">
+                <a href="https://wa.me/6285391107591" target="_blank" class="btn btn-primary btn-lg" data-key="serviceDemoButton">
                     Contact Me on WhatsApp
                 </a>
             </div>
         </div>
 
-
     </section>
 
     <footer>
-        <p>&copy; 2025 Ahmad Rizani. All rights reserved.</p>
+        <p data-key="footerText">&copy; 2025 Ahmad Rizani. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
