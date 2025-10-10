@@ -123,7 +123,7 @@ const projects = [
     { title: "Web Application with Flask", descriptionKey: "projDescFlask", image: "images/web_app_flask.png", url: "https://rjscrapy.pythonanywhere.com/" },
     { title: "Machine Learning Price Prediction", descriptionKey: "projDescML", image: "images/ml.png", url: "https://house-price-predic.streamlit.app/" },
     { title: "Lead Generation", descriptionKey: "projDescLead", image: "images/lead.jpeg", url:"https://www.youtube.com/watch?v=i2MHn43_WQI&t=7s" },
-    { title: "Search Engine Optimization (SEO)", descriptionKey: "projSeo", image: "images/Seo.png", url: "https://www.charcoalstore.shop/"}
+    { title: "Search Engine Optimization (SEO)", descriptionKey: "projSeo", image: "images/Seo.png", url: "https://medium.com/@rjrizani_66086/from-seo-errors-to-page-one-a-case-study-of-ranking-a-niche-e-commerce-site-29a2f5181b1f"}
     
 ];
 
