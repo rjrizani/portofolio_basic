@@ -50,6 +50,7 @@ const translations = {
         projDescML: "Developed a machine learning model to predict the price of a house based on its features.",
         projDescLead: "Automating lead generation using web scraping techniques to gather potential customer information from various online sources.",
         projSeo:"My SEO approach includes schema markup, mobile-first design, and integration with Google Search Console and Bing Webmaster Tools to monitor visibility and improve indexing.",
+        projPDF:"PDF Data Extraction: Using Python to extract data from PDF files, converting it into usable formats like CSV or Excel for further analysis.",
         serviceBio: "Full Stack Developer | Coding Teacher | Python Developer",
         serviceHireMe: "Hire Me On",
         serviceDemoTitle: "Free Demo Classes",
@@ -106,6 +107,7 @@ const translations = {
         projDescML: "Mengembangkan model machine learning untuk memprediksi harga rumah berdasarkan fitur-fiturnya.",
         projDescLead: "Mengotomatisasi generasi prospek menggunakan teknik web scraping untuk mengumpulkan informasi pelanggan potensial dari berbagai sumber online.",
         projSeo:"Pendekatan SEO saya mencakup markup skema, desain mobile-first, dan integrasi dengan Google Search Console serta Bing Webmaster Tools untuk memantau visibilitas dan meningkatkan pengindeksan.",
+        projPDF:"Ekstraksi Data PDF: Menggunakan Python untuk mengekstrak data dari file PDF, mengubahnya menjadi format yang dapat digunakan seperti CSV atau Excel untuk analisis lebih lanjut.",
         serviceBio: "Full Stack Developer | Guru Coding | Python Developer",
         serviceHireMe: "Rekrut Saya Di",
         serviceDemoTitle: "Kelas Demo Gratis",
@@ -123,7 +125,8 @@ const projects = [
     { title: "Web Application with Flask", descriptionKey: "projDescFlask", image: "images/web_app_flask.png", url: "https://rjscrapy.pythonanywhere.com/" },
     { title: "Machine Learning Price Prediction", descriptionKey: "projDescML", image: "images/ml.png", url: "https://house-price-predic.streamlit.app/" },
     { title: "Lead Generation", descriptionKey: "projDescLead", image: "images/lead.jpeg", url:"https://www.youtube.com/watch?v=i2MHn43_WQI&t=7s" },
-    { title: "Search Engine Optimization (SEO)", descriptionKey: "projSeo", image: "images/Seo.png", url: "https://medium.com/@rjrizani_66086/from-seo-errors-to-page-one-a-case-study-of-ranking-a-niche-e-commerce-site-29a2f5181b1f"}
+    { title: "Search Engine Optimization (SEO)", descriptionKey: "projSeo", image: "images/Seo.png", url: "https://medium.com/@rjrizani_66086/from-seo-errors-to-page-one-a-case-study-of-ranking-a-niche-e-commerce-site-29a2f5181b1f"},
+    { title: "PDF Data Extraction", descriptionKey: "projPDF", image: "images/pdf_de.svg", url: "https://youtu.be/yyBXRav9aCo?si=SnU7FL3yocFlRH27"}
     
 ];
 
