@@ -158,7 +158,7 @@ function renderProjects(lang) {
         const description = currentTranslations[project.descriptionKey] || 'Description not found.';
 
         projectCard.innerHTML = `
-            <img src="${project.image}" alt="${project.title}" class="project-image">
+            <img loading="lazy" src="${project.image}" alt="${project.title}" class="project-image">
             <div class="project-card-content">
                 <h3>
                     <a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.title}</a>
