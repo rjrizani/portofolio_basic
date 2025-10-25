@@ -54,7 +54,8 @@ const translations = {
         serviceBio: "Full Stack Developer | Coding Teacher | Python Developer",
         serviceHireMe: "Hire Me On",
         serviceDemoTitle: "Free Demo Classes",
-        serviceDemoDesc: "Get a free demo class in the field of:",
+        serviceDemoDesc: "Get a free demo class in Coding, Roblox, and more:",
+        testimonial4Cite: "- Anonymous Client",
         serviceDemoButton: "Contact Me on WhatsApp"
     },
     id: {
@@ -111,7 +112,8 @@ const translations = {
         serviceBio: "Full Stack Developer | Guru Coding | Python Developer",
         serviceHireMe: "Rekrut Saya Di",
         serviceDemoTitle: "Kelas Demo Gratis",
-        serviceDemoDesc: "Dapatkan kelas demo gratis di bidang:",
+        serviceDemoDesc: "Dapatkan kelas demo gratis di bidang Coding, Roblox, dan lainnya:",
+        testimonial4Cite: "- Klien Anonim",
         serviceDemoButton: "Hubungi Saya di WhatsApp"
     }
 };
@@ -192,6 +194,9 @@ const setLanguage = (lang) => {
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.lang === lang);
     });
+
+    // Update the <html lang="..."> attribute for accessibility and SEO
+    document.documentElement.lang = lang;
 
     // Save preference
     localStorage.setItem('language', lang);
